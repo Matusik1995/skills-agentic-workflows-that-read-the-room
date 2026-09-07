@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -32,6 +33,9 @@ Fetch these official public sources with the web-fetch tool:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
+
+Include Awesome Copilot workflows among the sources when selecting useful, recent items.
 
 Identify useful, recent items that fit Mona's editorial angle. Keep summaries short and practical for developers, mention whether each item comes from the GitHub Blog or GitHub Changelog, and include the source URL. Update only `site/content/github-info.md`, preserving its existing structure and adding or refreshing concise entries rather than replacing useful existing guidance.
 
